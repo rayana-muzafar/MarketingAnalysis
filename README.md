@@ -19,6 +19,7 @@ ShopEasy, an online-retailer of sports inventory, faced decreased engagement rat
 - <b>Power BI</b>
 
 <h2>Program walk-through:</h2>
+<img width="735" height="497" alt="Image" src="https://github.com/user-attachments/assets/14735803-83d6-4d04-8a7d-f3664aad927c" />
 
 <p align="center">
 Launch the utility: <br/>
