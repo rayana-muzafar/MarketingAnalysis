@@ -18,7 +18,18 @@ ShopEasy, an online-retailer of sports inventory, faced decreased engagement rat
 - <b>Python - VisualStudio</b>
 - <b>Power BI</b>
 
-<h2>Program walk-through:</h2>
+
+<h2>Page Sections:</h2>
+
+<ol>
+ <li>KPIs and Business Questions;</li>
+ <li>Cleaning and transforming data in SQL;</li>
+ <li>Customer Feedback analysis in Python;</li>
+ <li>Data-modelling in Power BI;</li>
+ <li>Creating measures in Power BI;</li>
+ <li>Visualization in Power BI;</li>
+ <li>ANalysis' results, conclusions and recommendations.</li>
+</ol>
 <img width="735" height="497" alt="Image" src="https://github.com/user-attachments/assets/14735803-83d6-4d04-8a7d-f3664aad927c" />
 
 <p align="center">
