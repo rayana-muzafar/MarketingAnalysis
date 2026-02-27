@@ -70,9 +70,11 @@ ShopEasy, an online-retailer of sports inventory, faced decreased engagement rat
 <img width="664" height="418" alt="fact.customer_journeys" src="https://github.com/user-attachments/assets/d6de9072-01ad-489f-945f-06b2869b62b3" />
 
 <h2>Customer Feedback analysis with Python</h2>
-<b>Key concepts and tools used in Sentiment Analisys:</b>
+<b>Tech Stack used in Sentiment Analisys:</b>
 
-- Pandas Library
+- <b>Python (Pandas):</b> for data-manipulation and new columns creation
+- <b>NLTK (VADER):</b> using a pre-trained model of lexical analysist to assess the tone of the text
+- <b>SQL (pyodbc):</b> for extracting data from SQL Server's relational database 
 
 
 
