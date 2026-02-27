@@ -76,6 +76,9 @@ ShopEasy, an online-retailer of sports inventory, faced decreased engagement rat
 - <b>NLTK (VADER):</b> using a pre-trained model of lexical analysist to assess the tone of the text
 - <b>SQL (pyodbc):</b> for extracting data from SQL Server's relational database 
 
+Libraries preparation:
+
+<img width="610" height="142" alt="Image" src="https://github.com/user-attachments/assets/fed9b477-88d1-43c1-9795-2585de4f0121" />
 
 
 
