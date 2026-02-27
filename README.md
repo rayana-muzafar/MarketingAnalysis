@@ -25,8 +25,6 @@ ShopEasy, an online-retailer of sports inventory, faced decreased engagement rat
  <li>KPIs and Business Questions;</li>
  <li>Cleaning and transforming data in SQL;</li>
  <li>Customer Feedback analysis in Python;</li>
- <li>Data-modelling in Power BI;</li>
- <li>Creating measures in Power BI;</li>
  <li>Visualization in Power BI;</li>
  <li>Analysis' results, conclusions and recommendations.</li>
 </ol>
@@ -69,51 +67,43 @@ ShopEasy, an online-retailer of sports inventory, faced decreased engagement rat
 
 <img width="664" height="418" alt="fact.customer_journeys" src="https://github.com/user-attachments/assets/d6de9072-01ad-489f-945f-06b2869b62b3" />
 
-<h2>Customer Feedback analysis with Python</h2>
+<h2>3. Customer Feedback analysis with Python</h2>
 <b>Tech Stack used in Sentiment Analisys:</b>
 
 - <b>Python (Pandas):</b> for data-manipulation and new columns creation
-- <b>NLTK (VADER):</b> using a pre-trained model of lexical analysist to assess the tone of the text
+- <b>NLTK (VADER):</b> using a pre-trained model of lexical analysis to assess the tone of the text
 - <b>SQL (pyodbc):</b> for extracting data from SQL Server's relational database 
 
 Libraries preparation:
 
 <img width="610" height="142" alt="Image" src="https://github.com/user-attachments/assets/fed9b477-88d1-43c1-9795-2585de4f0121" />
+<p></p>
+
+Extraction of data from SQL-Server. The "customer_reviews_df" variable becomes a table that contains customer IDs, feedback text, and ratings:
+
+<img width="1160" height="284" alt="Image" src="https://github.com/user-attachments/assets/57574803-c160-4aa5-8593-e579134f14c0" />
+<p></p>
+
+Building a logic of the analysis with defined functions:
+<ol>
+ <li><b>calculate_sentiment(review)</b> - Takes the feedback text and returns a number from -1 (terrible) to 1 (fine). Uses VADER for this.</li>
+ <li><b>categorize_sentiment(score, rating)</b> - Compares the emotion of the text and the rating that the customer has entered.</li>
+ <li><b>sentiment_bucket(score)</b> - Groups numbers by ranges.</li>
+</ol>
+<img width="439" height="126" alt="Image" src="https://github.com/user-attachments/assets/0e9eedc0-7270-4eae-9022-83c02b419ce2" />
+<p></p>
+<img width="415" height="426" alt="Image" src="https://github.com/user-attachments/assets/9e36dbae-8ea8-4bc1-9540-24a1393614bb" />
+<p></p>
+<img width="343" height="183" alt="Image" src="https://github.com/user-attachments/assets/19547a09-dcdb-49a3-aeeb-e63913927e62" />
+<p></p>
+
+Applying those functions and getting a new csv-file with 3 new columns ("SentimentScore", "SentimentCategory", "SentimentBucket"):
+
+<img width="843" height="154" alt="Image" src="https://github.com/user-attachments/assets/1e55263c-987e-48aa-a229-edcc4670ab36" />
 
 
 
 
-
-<img width="735" height="497" alt="Image" src="https://github.com/user-attachments/assets/14735803-83d6-4d04-8a7d-f3664aad927c" />
-
-<p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
 
 <!--
  ```diff
