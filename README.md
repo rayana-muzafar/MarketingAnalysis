@@ -102,7 +102,8 @@ Applying those functions and getting a new csv-file with 3 new columns ("Sentime
 <img width="843" height="154" alt="Image" src="https://github.com/user-attachments/assets/1e55263c-987e-48aa-a229-edcc4670ab36" />
 
 <h2>4. Data Visualization in Power BI</h2>
-Creation of Calendar Table to ensure time accuracy:
+Creation of Calendar Table in DAX to ensure time accuracy:
+
 
 <img width="687" height="335" alt="Image" src="https://github.com/user-attachments/assets/bffd0b2d-a4ba-4546-824b-4d81d237bdf9" />
 
