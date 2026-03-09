@@ -36,7 +36,6 @@ ShopEasy, an online-retailer of sports inventory, faced decreased engagement rat
 <b>Questions:</b>
 <ol>
  <li>Is there a drop in customer engagement and satisfaction, and is it affecting our conversion rates?</li>
- <li>Which of our campaigns perform the best, and which the worst?</li>
  <li>How to optimize our efforts and meet ROI?</li>
  <li>How effective are our marketing strategies?</li>
  <li>What are our customers' needs and pain points?</li>
